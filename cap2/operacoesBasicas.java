@@ -1,4 +1,4 @@
-package cap2.Cap2;
+package cap2;
 
 //import java.util.*;
 import java.util.Scanner;
