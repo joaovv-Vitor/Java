@@ -8,17 +8,17 @@ import java.util.Scanner;
 public class quest2_25 {
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-
-        int numb;
-        System.out.println("Digite um Número Inteiro para verificar se ele é par ou impar: ");
-        numb = input.nextInt();
-        
-        if (numb%2 == 0) {
-            System.out.println("É Par");
-        }
-        else{
-            System.out.println("É Impar");
+        try (Scanner input = new Scanner(System.in)) {
+            int numb;
+            System.out.println("Digite um Número Inteiro para verificar se ele é par ou impar: ");
+            numb = input.nextInt();
+            
+            if (numb%2 == 0) {
+                System.out.println("É Par");
+            }
+            else{
+                System.out.println("É Impar");
+            }
         }
 
     }
