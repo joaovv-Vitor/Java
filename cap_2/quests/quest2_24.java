@@ -3,7 +3,7 @@
     no grupo. Utilize somente as técnicas de programação que você aprendeu neste capítulo
  */
 
-package cap2.quests;
+package cap_2.quests;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package cap2;
+package cap_2;
 
 import java.util.Scanner;//o import precisa ser feito antes da public class
 
